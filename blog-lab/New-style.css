@@ -1,0 +1,145 @@
+
+
+header.section-1{
+    background: url(../images/background.jpg) 
+    background-size: cover;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+
+header.logo {     /*Both relaxr logo's will inherit the same style*/
+    background: :url(../images/logo.png)no-repeat center top rgb(134,141,157);
+  text-align: center;
+   
+
+}
+
+
+
+
+
+
+/*sections*/
+
+div#blog header {
+  background-color: #033048;
+  /*background-size: cover; - only works with images*/
+  padding: 10px 0;
+
+ }
+
+ div#blog header div.inner{
+  width: 1200px;
+  margin: 0 auto;
+
+ }
+
+div#blog header h1{
+  color: white;
+  display: inline-block;
+
+}
+
+div#blog header nav{
+  float: right;
+  margin-top: 12px;
+}
+
+
+div#blog header nav ul li{
+  display: inline-block;
+  color: white;
+  margin-right: 10px; 
+  margin-right: 10px;
+
+}
+
+div#blog header nav ul li a{
+  display: inline-block;
+  color: #f9e42e;
+  text-decoration: none;
+  
+}
+
+div#blog section#articles{
+  border: 2px solid red;
+  display: inline-block;
+  width: 900px;
+  vertical-align: top;
+}
+
+div#blog aside{
+  border: 2px solid blue;
+  display: inline-block;
+  width: 290px;
+  vertical-align: top;
+
+}
+
+div#blog div.content-wrap{
+  width: 1200px;
+  margin: 0 auto;
+
+}
+
+
+section#articles h2{
+font-size: 25px;
+
+
+}
+div#blog section#articles article div.read-more{
+  margin-top: 20px;
+  text-align: right;
+  font-size: 20px;
+  font-weight: 700;
+
+
+}
+
+div#blog section#articles article em{
+float: left;
+font-size: 80px;
+line-height: 65px;
+padding-top: 4px;
+padding-right: 8px;
+padding-left: 3px;
+font-weight: 600;
+}
+
+ aside h3{
+  text-align: center;
+  font-size: 20px;
+  font-weight: 800;
+
+
+}
+
+aside nav ul li a{
+  text-decoration: none;
+
+}
+
+a.click{
+    background-color: #033048;
+    color: white;
+    /*margin: 5px;*/
+    padding: 10px 30px 10px 30px;
+  /*  border-radius: 5px;*/
+    display: inline-block;
+    /*font-size: 12px;*/
+    /*font-weight: 800;*/
+    /*font-family: OpenSans;*/
+    font-family: 'Open Sans';
+    font-size: 24px;
+    /*font-style: normal;*/
+    /*font-variant: normal;*/
+    font-weight: 800;
+    /*line-height: 26.4px;*/
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+}
+
