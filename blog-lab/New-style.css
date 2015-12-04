@@ -1,145 +1,150 @@
 
-
-header.section-1{
-    background: url(../images/background.jpg) 
-    background-size: cover;
-    padding: 20px;
-    color: white;
-    text-align: center;
+/*
+Project Name: Blank Template
+Client: General Assembly FEWD
+Author: Matt Grenier
+Developer @GA in LA
+*/
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
 }
 
-
-header.logo {     /*Both relaxr logo's will inherit the same style*/
-    background: :url(../images/logo.png)no-repeat center top rgb(134,141,157);
-  text-align: center;
-   
-
+.clear {
+  clear: both;
 }
 
-
-
-
-
-
-/*sections*/
-
-div#blog header {
-  background-color: #033048;
-  /*background-size: cover; - only works with images*/
-  padding: 10px 0;
-
- }
-
- div#blog header div.inner{
-  width: 1200px;
-  margin: 0 auto;
-
- }
-
-div#blog header h1{
-  color: white;
-  display: inline-block;
-
-}
-
-div#blog header nav{
+.alignright {
   float: right;
-  margin-top: 12px;
+  padding: 0 0 10px 10px;  note the padding around a right floated image */
 }
 
+/*.alignleft {*/
+  /*float: left;*/
+  /*padding: 0 10px 10px 0;  note the padding around a left floated image */
+/*}*/
 
-div#blog header nav ul li{
-  display: inline-block;
-  color: white;
-  margin-right: 10px; 
-  margin-right: 10px;
+body {
+     background-color: #d7d7d7;
+     font-size: 12px;
+     line-height: 1.4;
 
 }
 
-div#blog header nav ul li a{
-  display: inline-block;
-  color: #f9e42e;
-  text-decoration: none;
+  div.container {
+    width: 100%;
+    /*margin: 0 auto;*/
+    height: 500px;
+} 
+
+  header {
+      background: url('images/background.jpg');
+      background-size: 30%;
+      background-repeat: repeat-x;
+      color: white;
+      text-align: center;
+      margin-bottom: 70px;
+      width: 1260px;
+    
+}
+
+ header div#header-logo { 
+ padding-top: 25px;
+
+
+}
   
+
+body{
+  width:1200px;
+  vertical-align: right;
 }
 
-div#blog section#articles{
-  border: 2px solid red;
-  display: inline-block;
-  width: 900px;
-  vertical-align: top;
+h2 {
+  text-decoration: none;
 }
 
-div#blog aside{
-  border: 2px solid blue;
-  display: inline-block;
-  width: 290px;
-  vertical-align: top;
-
+section#articles{
+  background-color: white;
+  width: 600px;
+  float: left;
+  margin-left: 127px;
+  padding-left: 20px;
+  padding-right:  20px;
 }
 
-div#blog div.content-wrap{
-  width: 1200px;
-  margin: 0 auto;
+section#articles p{
+  font-size: 12px;
 
 }
+/*
+section#articles div.download a{
+text-decoration: none;
+color: orange;
+font-weight: bold;
 
+}*/
 
-section#articles h2{
-font-size: 25px;
-
-
-}
-div#blog section#articles article div.read-more{
-  margin-top: 20px;
-  text-align: right;
-  font-size: 20px;
-  font-weight: 700;
-
-
-}
-
-div#blog section#articles article em{
-float: left;
-font-size: 80px;
-line-height: 65px;
-padding-top: 4px;
-padding-right: 8px;
-padding-left: 3px;
-font-weight: 600;
-}
-
- aside h3{
-  text-align: center;
-  font-size: 20px;
+a{
+  color: orange;
+  text-decoration: none;
   font-weight: 800;
+}
 
+ aside{
+  border: 1px solid blue;
+  width: 290px;
+  height: 700px;
+  float: right;
+/*  vertical-align: right;*/
+  background-color: white;
+  margin-right: 127px;
+ 
+}
+
+aside h3{
+  padding-left: 35px;
 
 }
 
-aside nav ul li a{
+aside ul li{
+  list-style: none;
+/*  margin: 0 auto;*/
+}
+
+aside ul li a{
+  color: gray;
+  display: inline-block;
+  list-style: none;
   text-decoration: none;
 
+
 }
 
-a.click{
-    background-color: #033048;
-    color: white;
-    /*margin: 5px;*/
-    padding: 10px 30px 10px 30px;
-  /*  border-radius: 5px;*/
-    display: inline-block;
-    /*font-size: 12px;*/
-    /*font-weight: 800;*/
-    /*font-family: OpenSans;*/
-    font-family: 'Open Sans';
-    font-size: 24px;
-    /*font-style: normal;*/
-    /*font-variant: normal;*/
-    font-weight: 800;
-    /*line-height: 26.4px;*/
-    border-radius: 5px;
-    text-decoration: none;
-    text-align: center;
+aside .inner-lower {
+text-align: center;
+padding-top: 10px;
+padding-bottom: 10px;
 }
+
+
+
+footer {
+  text-align: center;
+  padding-top: 1600px;
+
+
+}
+
+footer ul li{
+  display: inline-block;
+  list-style: none;
+  text-align: center;
+
+}
+
 
