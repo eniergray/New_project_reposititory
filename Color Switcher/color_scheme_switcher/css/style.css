@@ -9,6 +9,7 @@ body {
 h1 {
   line-height: 1.25;
  margin: 2em 0 0;    /*1 em (proportional method of sizing) = 10*/
+ position: relative;
 }
 p {
   margin: .5em 0;

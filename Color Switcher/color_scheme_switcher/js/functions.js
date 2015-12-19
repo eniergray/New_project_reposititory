@@ -20,7 +20,17 @@ $(document).ready(function(){
 		$('body').css('color', 'white');
 	});
 
+		$("li#doAnimation").click(function() {
 
+			 $ ("h1").animate({
+			    // opacity: 0.25,
+			    left: "+=50",
+			    // height: "toggle"
+			  }, 1000, function() {
+			    // Animation complete.
+			  });
+
+		});
 
 
 });
