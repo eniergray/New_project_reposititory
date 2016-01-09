@@ -1,11 +1,23 @@
 $(document).ready(function(){
 
-	console.log('Hellow world.');
+	var firstName = prompt( 'What is your name?');
+	var lastName = prompt('What is your last name?')
+	var age = prompt( 'What is your age?');
+
+	var fullName = firstName + ' ' + lastName
+
+	firstName = age;  //what is first name?  It will be 28 as you are setting the first name as the age and vice versa
+
+
+	console.log(fullName);  //fullname is an identified variable and not a string
+
 
 	$('li#grayButton').click(function(){
 
 		$('body').css('background-color', 'gray');
 		$('body').css('color', 'white');
+		$('h1').html( firstName );;
+
 	});
 
 	$('li#whiteButton').click(function(){
